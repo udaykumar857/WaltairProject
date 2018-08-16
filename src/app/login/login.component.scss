@@ -1,0 +1,115 @@
+.coverImage {
+  background-image: url("../../assets/images/frontview.JPG");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .wm-60 {
+    min-width: 60% !important;
+  }
+  .box_bg {
+    background: rgba(255, 255, 255, .2);
+    box-shadow: -2px 7px 37px 8px rgba(0, 0, 0, 0.52);
+    .box_pd {
+      padding: 20px 25px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      .loginHead {
+        margin: 15px 0px;
+        background: #846054;
+        .loginTxt {
+          font-size: 35px;
+          margin-top: 6px;
+        }
+        .logoWC {
+          width: 55px;
+          height: 55px;
+          margin-right: 10px;
+        }
+      }
+      .labelTxt {
+        font-size: 13px;
+        text-decoration: underline;
+        text-shadow: 2px 1px #000000;
+        &:hover {
+          color: #d4d4d4;
+        }
+      }
+      .loginBtn {
+        background: #846054;
+        &:hover {
+          color: #fff;
+        }
+      }
+      .relativePos {
+        position: relative;
+      }
+      .field-icon {
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 12;
+        color: #aaa;
+      }
+    }
+  }
+}
+
+// .btn:hover{
+//     background: #3B5996;
+//     color:#fff;
+//   }
+//   .load {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     height: 100%;
+//     width: 100%;
+//     opacity: 0.5;
+//     background: gray;
+//     z-index: 9999;
+//   }
+//   .spinner {
+//     margin-top: 21%;
+//   }
+//   .loading_msg {
+//     color: black;
+//     font-weight: normal !important;
+//   }
+//   @media screen and (min-width: 768px) and (max-width: 1024px){
+//     .termsDialog{
+//       top: 5%;
+//     }
+//   }
+//   @media screen and (min-width:1366px){
+//     .termsDialog{
+//       top: 20%;
+//     }
+//   }
+@media only screen and (max-width: 767px) {
+  // .footer {
+  //     display: none !important;
+  //  }
+  /* .sm-hide{
+             display: none !important;
+   } */
+  .loginTxt {
+    font-size: 25px;
+  }
+  /* .mgl-35{
+     margin-left:40px;
+   }
+   .pdlrMob-0{
+     padding-left: 0px !important;
+     padding-right: 0px !important;
+     padding-top: 0px !important;
+   } */
+}
+
+//  @media only screen and (min-width: 769px) and (max-width: 991px){
+//    .login769{
+//      margin: 0 auto !important;
+//      float: initial;
+//    }
+//  }

@@ -1,0 +1,51 @@
+<div class="coverImage">
+  <div class="container h-100">
+    <div class="row mx-0 justify-content-center h-100" id="changePassword">
+      <div class="col-md-4 align-self-center col-sm-6 px-0 wm-60">
+        <section class="box_bg">
+          <div class="box_pd">
+            <div class="text-center loginHead py-1 w-100">
+              <img class="logoWC" id="logo" src="../../assets/images/logo.png" alt="logo">
+              <h2 class="loginTxt d-inline align-middle text-white font-weight-bold mb-0">Waltair Club</h2>
+            </div>
+            <!-- <div class="row ml-0 mr-0">
+                <div class="col-12 pl-0 pr-0 text-center c-hand" onclick="loginPage()">
+                </div>
+              </div> -->
+            <div id="loginForm">
+              <form>
+                <div class="mb-1">
+                  <input type="text" class="form-control rounded-0" value="" name="mentionname" placeholder="Member ID" autofocus="" id="namecheck"
+                    maxlength="8" autocomplete="off" required/>
+                </div>
+                <div class="form-group relativePos" id="passwordHide" ng-model="password">
+                  <input id="passwordShow" type="password" required class="form-control rounded-0" name="password" placeholder="Password" autocomplete="off"
+                  />
+                  <i class="material-icons field-icon c-hand" ng-if="password">remove_red_eye</i>
+                  <!-- <i class="fa fa-eye field-icon toggle-password" id="toggle-password" onclick="togglePassword(this)"></i> -->
+                </div>
+                <div class="mb-1" id="actualLogin">
+                  <button class="btn btn-block loginBtn c-hand rounded-0 text-white" id="loginSubmit" type="submit">Login</button>
+                </div>
+              </form>
+              <div>
+                <a class="labelTxt c-hand text-white" href="http://waltairclub.net">Back to Portal</a>
+                <a id="" class="float-right c-hand labelTxt text-white">Forgot password</a>
+                <!-- <div style="position: absolute; top: 0;">
+                    <a class="pull-left fgtPsd" href="http://waltairclub.net" style="cursor:pointer;">Back to Portal</a>
+                  </div> -->
+              </div>
+              <!-- <div class="pull-right">
+                  <a id="" class="pull-right fgtPsd" style="cursor:pointer;">Forgot password</a>
+                  <div style="position: absolute; top: 0;">
+                    <a id="fgtlink" class="pull-right fgtPsd" style="cursor:pointer;">Forgot password</a>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+          <div id="message"></div>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
